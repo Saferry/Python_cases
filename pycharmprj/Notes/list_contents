@@ -1,0 +1,46 @@
+
+'''
+简书
+https://www.jianshu.com/p/dce4a576c261?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+'''
+# sys.path.insert(0,'/path/to/my/packages') # 但是你必须牢记sys.path很容易被滥用。
+$ sudo apt-get install python-simplejson # 在Ubuntu系统上安装simplejson
+
+# pip是一个用来安装和管理Python包的工具
+$ sudo apt-get install python-pip
+$ sudo pip install pip --upgrade
+$ sudo pip install simplejson --upgrade         # Upgrade a package to the latest version from PyPI
+$ sudo pip install simplejson==2.2.1 --upgrade  # Upgrade/downgrade a package to a given version
+# 通过git协议安装
+$ sudo pip install git+git://hostname_or_ip/path/to/git-repo#egg=packagename
+
+# 通过pip安装virutalenv
+$ sudo pip install virtualenv
+
+$ mkdir my_project_venv
+$ virtualenv --distribute my_project_venv # --distribute参数将会自动在虚拟环境中安装pip，免去了手动安装的麻烦。
+# The output will something like:
+New python executable in my_project_venv/bin/python
+Installing distribute.............................................done.
+Installing pip.....................done.
+
+Requests：为人类开发的HTTP库
+
+Flask：网络开发微框架
+
+Django：面向网络开发的全栈框架
+
+Fabric：简化使用SSH部署网站和执行系统管理任务的方式
+
+SciPy：Python中的科学计算工具
+
+PEP 8：Python风格指南
+
+强大的Python标准库
+
+
+'''
+
+Python世界中，几乎针对每一个你能想象到的任务，都存在相关的工具、库和软件。你必须要自己慢慢探索。
+
+'''
